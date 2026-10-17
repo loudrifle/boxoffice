@@ -1,0 +1,28 @@
+// Shared TypeScript settings for every package in the monorepo.
+// Author: loudrifle — Last updated: 2026-10-17
+{
+  "compilerOptions": {
+    // Language level: Node 24 supports ES2024 natively, so nothing gets downleveled.
+    "target": "es2024",
+    // No DOM types: this code never runs in a browser.
+    "lib": ["es2024"],
+    // Resolve imports exactly like Node does (ESM rules, explicit extensions).
+    "module": "nodenext",
+    "types": ["node"],
+
+    // Type safety
+    "strict": true,
+    // arr[i] and record[key] may be undefined: data comes from outside.
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Emit
+    // Type-only imports must say so: what you write is what ends up in JS.
+    "verbatimModuleSyntax": true,
+    // Only syntax that can be erased (no enums, namespaces): keeps Node's type stripping an option.
+    "erasableSyntaxOnly": true,
+    "sourceMap": true,
+    "skipLibCheck": true
+  }
+}
