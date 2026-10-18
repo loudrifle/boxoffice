@@ -85,7 +85,7 @@ A module is done only when CI is green and I can answer its questions without lo
 
 |     | Phase            | Module                                     | Est. effort |
 | --- | ---------------- | ------------------------------------------ | ----------- |
-| [ ] | 0 · Setup        | M00 Setup and method                       | ~4h         |
+| [x] | 0 · Setup        | M00 Setup and method                       | ~4h         |
 | [ ] | 1 · Foundations  | M01 HTTP from first principles             | ~8h         |
 | [ ] |                  | M02 The Node runtime                       | ~8h         |
 | [ ] |                  | M03 Express and API architecture           | ~12h        |
