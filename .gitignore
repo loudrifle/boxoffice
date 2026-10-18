@@ -1,0 +1,15 @@
+# Dependencies: rebuilt from the lockfile
+node_modules/
+
+# Build and test output
+dist/
+coverage/
+
+# Local secrets: never committed. .env.example documents the variables.
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store

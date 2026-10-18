@@ -12,6 +12,6 @@ This repo is where I learn those topics properly. Each one gets theory notes, a 
 
 ## Status
 
-Currently working on **M00 — Setup and method**.
+Currently working on **M01 — HTTP from first principles**. Completed: M00.
 
 The full plan, the stack and the progress are in the [roadmap](ROADMAP.md).
